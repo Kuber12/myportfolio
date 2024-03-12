@@ -35,16 +35,16 @@ export default function Home() {
             <h5 className="text-2xl font-bold tracking-tight sm:text-1xl">Full Stack Web Developer</h5>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Kuber Bajra Shakya</h1>
             <div className="flex items-center justify-center pt-5 sm:pt-0 mt-5">
-                <a href="/" className="pl-4">
+                <a href="https://www.facebook.com/profile.php?id=100004524277925" className="pl-4">
                   <i className="icn i-facebook text-2xl text-white hover:text-yellow"></i>
                 </a>
-                <a href="/" className="pl-4">
+                <a href="https://www.linkedin.com/in/kuber-shakya/" className="pl-4">
                   <i className="icn i-linkedin text-2xl text-white hover:text-yellow"></i>
                 </a>
-                <a href="/" className="pl-4">
+                <a href="https://github.com/Kuber12" className="pl-4">
                   <i className="icn i-github text-2xl text-white hover:text-yellow"></i>
                 </a>
-                <a href="/" className="pl-4">
+                <a href="https://www.instagram.com/k.b.s.t0b1/" className="pl-4">
                   <i className="icn i-instagram text-2xl text-white hover:text-yellow"></i>
                 </a>
               </div>
@@ -110,9 +110,21 @@ export default function Home() {
             <div className="h-3 rounded-full bg-tertiary" style={{width: '85%'}}></div>
           </div>
         </div>
+        
         <div className="pt-6">
           <div className="flex items-end justify-between">
-            <h4 className="font-body font-semibold uppercase text-black">Python</h4>
+            <h4 className="font-body font-semibold uppercase text-black">
+              Javascript
+            </h4>
+            <h3 className="font-body text-3xl font-bold text-quaternary">80%</h3>
+          </div>
+          <div className="mt-2 h-3 w-full rounded-full bg-lila">
+            <div className="h-3 rounded-full bg-tertiary" style={{ width: '80%'}}></div>
+          </div>
+        </div>
+        <div className="pt-6">
+          <div className="flex items-end justify-between">
+            <h4 className="font-body font-semibold uppercase text-black">PHP</h4>
             <h3 className="font-body text-3xl font-bold text-quaternary">70%</h3>
           </div>
           <div className="mt-2 h-3 w-full rounded-full bg-lila">
@@ -121,31 +133,30 @@ export default function Home() {
         </div>
         <div className="pt-6">
           <div className="flex items-end justify-between">
-            <h4 className="font-body font-semibold uppercase text-black">
-              Javascript
-            </h4>
-            <h3 className="font-body text-3xl font-bold text-quaternary">98%</h3>
+            <h4 className="font-body font-semibold uppercase text-black">Python</h4>
+            <h3 className="font-body text-3xl font-bold text-quaternary">50%</h3>
           </div>
-          <div className="mt-2 h-3 w-full rounded-full bg-lila">
-            <div className="h-3 rounded-full bg-tertiary" style={{ width: '98%'}}></div>
+          <div className="mt-2 h-3 w-full round ed-full bg-lila">
+            <div className="h-3 rounded-full bg-tertiary" style={{width: '50%'}}></div>
           </div>
         </div>
-        <div className="pt-6">
-          <div className="flex items-end justify-between">
-            <h4 className="font-body font-semibold uppercase text-black">Figma</h4>
-            <h3 className="font-body text-3xl font-bold text-quaternary">91%</h3>
-          </div>
-          <div className="mt-2 h-3 w-full rounded-full bg-lila">
-            <div className="h-3 rounded-full bg-tertiary" style={{width: '91%'}}></div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>
-  <div className="bg-primary py-12">
+  <div id="Projects" className="bg-primary py-12">
     <div className="text-center w-10/12 m-auto">
         <h1 className="font-header text-4xl font-semibold lg:text-5xl text-gray-900">My Projects</h1>
-        <div className="grid grid-flow-col grid-row-3 max-sm:grid-flow-row">
+        <div className="grid grid-cols-3 max-sm:grid-flow-row">
+          <div className=" h-auto py-4 ">
+            <h3 className="lg:text-3xl font-medium">BlogTale</h3>
+            <h4 className="lg:text-1xl font-medium pb-2 text-gray-900">MERN Stack</h4>
+            <img className="h-48 w-80 pb-4 m-auto" src="/assets/pro-bt.png" alt='img'/>
+            <p className="pb-3 text-gray-900">
+              A blogging site
+            </p>
+            <button className="rounded-md bg-quaternary px-4 py-2 text-md font-semibold text-primary shadow-sm hover:grow-1 hover:animate-pulse focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mr-4" onClick={() => redirectToAnotherLink('https://blogtale.vercel.app')}>Live Demo</button>
+          </div>
           <div className=" h-auto py-4 ">
             <h3 className="lg:text-3xl font-medium">Hamro Canteen</h3>
             <h4 className="lg:text-1xl font-medium pb-2 text-gray-900">HTML, CSS, JS, PHP</h4>
@@ -153,8 +164,7 @@ export default function Home() {
             <p className="pb-3 text-gray-900">
               A canteen billing soultion
             </p>
-            <button className="rounded-md bg-quaternary px-4 py-2 text-md font-semibold text-primary shadow-sm hover:grow-1 hover:animate-pulse focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mr-4">Live Demo</button>
-            <button className="rounded-md bg-tertiary px-4 py-2 text-md font-semibold text-quaternary shadow-sm hover:grow-1 hover:animate-pulse focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Documentation</button>
+            <button className="rounded-md bg-quaternary px-4 py-2 text-md font-semibold text-primary shadow-sm hover:grow-1 hover:animate-pulse focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mr-4" onClick={() => redirectToAnotherLink('https://hamrocanteen.free.nf')}>Live Demo</button>
           </div>
           <div className=" h-auto py-4 ">
             <h3 className="lg:text-3xl font-medium">Video Poker</h3>
@@ -188,7 +198,7 @@ export default function Home() {
     </h3>
   
     <div className="grid grid-cols-2 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 max-sm:gap-0">
-      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 hover:bg-quaternary ">
+      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 hover:bg-quaternary transition duration-300 ease-in-out ">
         <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
           <div className="hidden group-hover:block">
             
@@ -208,7 +218,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 hover:bg-quaternary">
+      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 hover:bg-quaternary transition duration-300 ease-in-out">
         <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
           <div className="hidden group-hover:block">
             <img src='/assets/icon-content-white.svg' alt="Web Development" />
@@ -219,15 +229,15 @@ export default function Home() {
         </div>
         <div className="text-center">
           <h3 className="pt-8 text-lg font-semibold uppercase text-quaternary group-hover:text-white lg:text-xl">
-            CONTENT WRITING
+            API Development
           </h3>
           <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-            I can write contents.
+            I can make APIs.
           </p>
         </div>
       </div>
       
-      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 max-sm:hidden hover:bg-quaternary">
+      <div className="group rounded bg-primary shadow-[0_0_30px_3px_rgba(0,0,5,0.3)] px-8 py-12 max-sm:mx-5 max-sm:hidden hover:bg-quaternary transition duration-300 ease-in-out">
         <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
           <div className="hidden group-hover:block">
             
@@ -251,7 +261,7 @@ export default function Home() {
   </div>
 </div>
 <div className="bg-primary py-12">
-  <a href='//' content='aadsf' id="Achievements"> 
+  <a href='' content='aadsf' id="Achievements"> </a>
   <div className="text-center w-10/12 m-auto">
       <h1 className="font-header text-4xl font-semibold lg:text-5xl text-gray-900">My Achievements</h1>
       <div className="grid grid-flow-row grid-cols-2 my-4 max-sm:grid-cols-1">
@@ -273,7 +283,7 @@ export default function Home() {
         </div>
       </div>
   </div>
-  </a>
+  
 </div>                                      
         <div className="bg-secondary py-12">
         <div className="text-center w-10/12 m-auto">
@@ -283,25 +293,20 @@ export default function Home() {
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Bootstrap </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> CSS </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> JS </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> JQuery </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Canva </h4>
         
+                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> JQuery </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> C </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> PHP </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> React </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Python </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Django </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> MS Office </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> JAVA </h4>
             
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Team Player </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Decision Making </h4>
                 <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Fast Learner </h4>
-                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Good Listener </h4>
+                <h4 className="bg-primary px-3 py-2 font-bold text-2xl m-2 rounded-lg"> Active Listener </h4>
             </div>
         </div>
         </div>
-        <div className="bg-primary  text-center">
+        <div id="Contact" className="bg-primary text-center">
           <h1 className="bg-tertiary py-10 font-header text-4xl font-semibold lg:text-5xl text-gray-900">Contact Me</h1>
         
           <div className="flex flex-1 w-min max-sm:w-full max-sm:justify-around m-auto">
@@ -315,7 +320,7 @@ export default function Home() {
               <div className="tooltip-div t-phone w-32 h-32 m-10 max-sm:m-5 max-sm:h-20 max-sm:w-20 rounded-full bg-tertiary">
                 <img className="font-normal p-10 max-sm:p-5" src="/assets/mail.svg" alt="mail"/>  
                 <div className="flex relative justify-center translate-y-6 -translate-x-16 invisible w-max max-sm:hidden"> 
-                  <h4 className="px-6 py-3 tooltip text-center bg-primary rounded-full drop-shadow-lg text-gray-900 font-semibold text-lg">kubershakya123@gmail.com</h4>   
+                  <h4 className="px-3 py-3 tooltip text-center bg-primary rounded-full drop-shadow-lg text-gray-900 font-semibold text-lg">kubershakya123@gmail.com</h4>   
                 </div>
                 <h4 className="max-sm:block hidden">kubershakya123@ gmail.com</h4>
               </div>

@@ -18,10 +18,9 @@ export default function Nav() {
         </button>
     </div>
     <div className="hidden lg:flex lg:gap-x-12">
-        <a href="//" className="text-sm font-semibold leading-6 text-gray-900">Education</a>
+        <a href="/#Projects/" className="text-sm font-semibold leading-6 text-gray-900">Projects</a>
         <a href="/#Achievements" className="text-sm font-semibold leading-6 text-gray-900">Achievements</a>
-        <a href="/contact" className="text-sm font-semibold leading-6 text-gray-900">Contact</a>
-        <a href="/#About" className="text-sm font-semibold leading-6 text-gray-900">About Me</a>
+        <a href="/#Contact" className="text-sm font-semibold leading-6 text-gray-900">Contact</a>
     </div>
     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="//" className="text-sm font-semibold leading-6 text-gray-900">My Blog <span aria-hidden="true">&rarr;</span></a>
