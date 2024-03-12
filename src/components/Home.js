@@ -159,7 +159,7 @@ export default function Home() {
           <div className=" h-auto py-4 ">
             <h3 className="lg:text-3xl font-medium">Video Poker</h3>
             <h4 className="lg:text-1xl font-medium pb-2 text-gray-900">C</h4>
-            <img className="h-48 w-80 pb-4 m-auto" src="/assets/pro-video.png" alt='videopoker'/>
+            <img className="h-48 w-80 pb-4 m-auto" src="/assets/pro-vp.png" alt='videopoker'/>
             <p className="pb-3 text-gray-900">
               A video poker game.
             </p>
@@ -168,7 +168,7 @@ export default function Home() {
           <div className=" h-auto py-4 ">
             <h3 className="lg:text-3xl font-medium">Hangman</h3>
             <h4 className="lg:text-1xl font-medium pb-2 text-gray-900">HTML, CSS, JS</h4>
-            <img className="h-48 w-80 pb-4 m-auto" src="/assets/pro-hangman.png" alt='canteen billing'/>
+            <img className="h-48 w-80 pb-4 m-auto" src="/assets/pro-hm.png" alt='canteen billing'/>
             <p className="pb-3 text-gray-900">
               A hangman game. 
             </p>
